@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.InteropServices.WindowsRuntime;
 using UnityEngine;
 
 //Creamos un menu con el nombre de la clase. Así aparece en el menú de assets de Unity para ser creado 
@@ -10,5 +11,11 @@ public class State : ScriptableObject
     //SerializeField permite que aparezca como recurso
     //TextArea() crea un area de texto en la interfaz de Unity del Scriptable Obj
     [TextArea(10,14)][SerializeField] string storyText;
+
+    // retorna el valor actual de storyText
+    public string GetStateStory()
+    {
+        return storyText;
+    }
 
 }
