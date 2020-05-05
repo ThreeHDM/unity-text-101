@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.InteropServices.WindowsRuntime;
 using UnityEngine;
@@ -10,12 +11,21 @@ public class State : ScriptableObject
 {
     //SerializeField permite que aparezca como recurso
     //TextArea() crea un area de texto en la interfaz de Unity del Scriptable Obj
-    [TextArea(10,14)][SerializeField] string storyText;
+    [TextArea(10, 14)] [SerializeField] string storyText;
+
+    //Declaramos una variable llamada nextStates, de tipo State Array y la serializamos para usarla en la UI. Esto permite que arrastremos el state en la UI y no tengamos que determinarlo en el código
+    [SerializeField] State[] nextStates;
 
     // retorna el valor actual de storyText
     public string GetStateStory()
     {
         return storyText;
+    }
+
+    //Creamos el método público de tipo StateArray llamado GetNextStates
+    public State[] GetNextStates()
+    {
+        return nextStates;        
     }
 
 }
