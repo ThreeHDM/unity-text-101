@@ -5,6 +5,7 @@ using UnityEngine;
 //Agregamos este namespace para poder usar Text.
 using UnityEngine.UI;
 
+
 public class AdventureGame : MonoBehaviour
 {
     //SerializeField permite tener esto disponible en nuestro inspector, así Unity solo sugiere objetos de tipo texto
@@ -38,6 +39,11 @@ public class AdventureGame : MonoBehaviour
     void Update()
     {
         ManageState();
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+           Application.Quit();
+        }
     }
 
     private void ManageState()
@@ -45,7 +51,10 @@ public class AdventureGame : MonoBehaviour
         //Retornamos los nextstates y los guardamos en una variable. "var" puede ser usado como una forma rapida cuando una variable es declarada e inicializada. VS ya sabe que en este caso es de tipo State[] porque eso retorna el método
         var nextStates = state.GetNextStates();
 
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+ /*
+  * Comentamos este código porque da un error si el usuario hace click en un elemento del array que no existe. Lo reemplazamos con un for loop
+  * 
+  * if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             state = nextStates[0];
         } 
@@ -57,7 +66,18 @@ public class AdventureGame : MonoBehaviour
         {
             state = nextStates[2];
         }
+*/
 
+        for (int index = 0; index < nextStates.Length; index++)
+        {
+            //Sumamos el indice a Alpha1 y si es uno obtenemos boton Alpha2, etc.
+            if (Input.GetKeyDown(KeyCode.Alpha1 + index))
+            {
+                //accedemos a la posición actual del array
+                state = nextStates[index];
+            }
+            
+        }
         textComponent.text = state.GetStateStory();
     }
 }

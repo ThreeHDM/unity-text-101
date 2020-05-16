@@ -12,8 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9de68fad024362846856a3171e87c933, type: 3}
   m_Name: Introduction
   m_EditorClassIdentifier: 
-  storyText: "Bienvenido a este juego. Aqu\xED eliges tu propio camino. Toma tus
-    decisiones con cuidado presionando las teclas num\xE9ricas del teclado.\n\nEn
-    cualquier momento presiona Q para irte del juego.\n\nPresiona 1 para comenzar"
+  storyText: "Bienvenido \"ESCAPE A MARTE\"\nEn un futuro distante la tierra ya no
+    es un lugar habitable. La raza humana est\xE1 dividida en dos facciones los \"Rebeldes\"
+    y los \"Ciudadanos\". Ayuda a Rick el ciudadano a escapar de la cat\xE1strofe
+    hacia el planeta rojo\nAqu\xED eliges tu propio camino. Toma tus decisiones con
+    cuidado presionando las teclas num\xE9ricas del teclado.\n\nEn cualquier momento
+    presiona ESC para irte del juego.\n\nPresiona 1 para comenzar"
   nextStates:
   - {fileID: 11400000, guid: d5200533e501432459de8a4751015b15, type: 2}

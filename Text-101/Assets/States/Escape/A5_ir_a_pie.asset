@@ -15,7 +15,7 @@ MonoBehaviour:
   storyText: "Al ir a pie puedo esconderme mejor en las callejuelas de la ciudad.
     Debido a la superpoblaci\xF3n no quedan muchos espacios abiertos.\r\nLuego de
     recorrer media ciudad a pie miro el reloj y veo que el tiempo se acaba.La nave
-    est\xE1 por despegar en 15 minutos\r\n1. Continuar andando con cautela.\r\n2.
+    est\xE1 por despegar en 15 minutos\r.\n\n1. Continuar andando con cautela.\r\n2.
     Correr sin importar qui\xE9n me vea"
   nextStates:
   - {fileID: 11400000, guid: c5ec0253f98288e49b13a382b6600745, type: 2}
