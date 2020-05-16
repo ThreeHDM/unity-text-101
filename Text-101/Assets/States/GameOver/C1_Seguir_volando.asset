@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9de68fad024362846856a3171e87c933, type: 3}
+  m_Name: C1_Seguir_volando
+  m_EditorClassIdentifier: 
+  storyText: "La Floto-Moto no puede continuar. Los Rebeldes me alcanzaron.\r\n\r\nMe
+    disararon por la espalda.\r\n\r\nPerd\xED mucha sangre.\r\n\r\nFIN\r\n\n1.Jugar
+    de nuevo\n2.Volver a la pantalla de inicio\n\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: d5200533e501432459de8a4751015b15, type: 2}
+  - {fileID: 11400000, guid: de801005313e4814c83fb8a2001895ec, type: 2}

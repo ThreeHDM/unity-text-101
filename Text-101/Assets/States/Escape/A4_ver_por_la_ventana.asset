@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9de68fad024362846856a3171e87c933, type: 3}
+  m_Name: A4_ver_por_la_ventana
+  m_EditorClassIdentifier: 
+  storyText: "La explosi\xF3n fue a unos pocos bloques de aqu\xED. \xA1Los Rebeldes
+    llegaron a la ciudad antes de lo esperado!\r\n\rDebo huir. Pronto.\r\nIr volando
+    en FlotoMoto puede ser peligroso si hay una batalla en las calles. Ser\xEDa un
+    blanco muy f\xE1cil, aunque llegar\xEDa r\xE1pido al Espacio-Puerto\r\n\n1. Tomar
+    mi FlotoMoto y volar al Espacio-Puerto.\r\n2. Ir al EspacioPuerto a pie"
+  nextStates:
+  - {fileID: 11400000, guid: 20d91f041302bd94883fd9fcf3b4352a, type: 2}
+  - {fileID: 11400000, guid: 6f2433510654f5e458e49215ac6e8e95, type: 2}

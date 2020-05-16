@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9de68fad024362846856a3171e87c933, type: 3}
+  m_Name: A6_ignorar_pedido_de_auxilio
+  m_EditorClassIdentifier: 
+  storyText: "Por mucho que me cueste tengo que seguir. La nave partir\xE1 en una
+    hora rumbo a Marte.\r\nMientras te alejas del edificio se escucha un disparo
+    y los gritos de auxilio se transforman en s\xFAplicas.\r\n\r\n1. Volver para
+    ayudar a la persona que suplica por su vida\r\n\r2. Seguir adelante. El cohete
+    no esperar\xE1 a nadie que se retrase."
+  nextStates:
+  - {fileID: 11400000, guid: b79381147ca627a45af19063b76cef63, type: 2}
+  - {fileID: 11400000, guid: c5ec0253f98288e49b13a382b6600745, type: 2}

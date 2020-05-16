@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9de68fad024362846856a3171e87c933, type: 3}
+  m_Name: A1_El_ Apartamento
+  m_EditorClassIdentifier: 
+  storyText: "Finalmente lleg\xF3 el d\xEDa. Planeo este viaje a Marte hace tiempo.\r
+    \rLa Tierra ya no es un lugar habitable. Los gases en la atm\xF3sfera son cada
+    d\xEDa m\xE1s t\xF3xicos y la guerra est\xE1 cerca.\r \rAdem\xE1s, no me queda
+    nadie. Todos... se fueron... o est\xE1n muertos.\r Temo por mi seguridad. En
+    la extranet se dice que en unos d\xEDas los rebeldes llegar\xE1n a la ciudad.
+    A\xFAn hay tiempo... \r\n\r\n\xBFQu\xE9 fue eso? \xA1una explosi\xF3n!\r\n\r\n1.
+    Ver por la ventana el origen de la explosi\xF3n.\r\n2. Tomar mi FlotoMoto y volar
+    al EspacioPuerto"
+  nextStates:
+  - {fileID: 11400000, guid: 4b839881cfce38a439dfab61d11a7995, type: 2}
+  - {fileID: 11400000, guid: 20d91f041302bd94883fd9fcf3b4352a, type: 2}

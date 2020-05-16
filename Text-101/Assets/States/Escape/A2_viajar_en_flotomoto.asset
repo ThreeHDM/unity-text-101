@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9de68fad024362846856a3171e87c933, type: 3}
+  m_Name: A2_viajar_en_flotomoto
+  m_EditorClassIdentifier: 
+  storyText: "\xA1Menos mal que cargu\xE9 las bater\xEDas de mi moto voladora! \r\nDeber\xEDa
+    llegar al Espacio Puerto con tiempo de sobra.\r\n\rApenas levant\xE9 vuelo escuch\xE9
+    disparos \xA1Me dieron! Me est\xE1n persiguiendo los rebeldes. No quieren que
+    nadie huya de la ciudad.\r\n\rLa Floto-Moto pierde velocidad.\r\n\r\n1. Aterrizar
+    en el tejado m\xE1s cercano\r\n\r2. Intentar seguir volando"
+  nextStates:
+  - {fileID: 11400000, guid: 5d3a52dbdbe558e44b3bcac389073742, type: 2}
+  - {fileID: 11400000, guid: f3b6688eafaec264d9dea06ae37fec2b, type: 2}

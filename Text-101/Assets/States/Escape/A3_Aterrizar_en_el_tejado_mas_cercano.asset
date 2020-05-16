@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9de68fad024362846856a3171e87c933, type: 3}
+  m_Name: A3_Aterrizar_en_el_tejado_mas_cercano
+  m_EditorClassIdentifier: 
+  storyText: "\xA1Logr\xE9 aterrizar bien! \r\n\rLos rebeldes a\xFAn me persiguen
+    pero puedo entrar al edificio y bajar por las \r\nescaleras\r\nCreo que no me
+    vieron. \xA1Los perd\xED!\r\nEn la planta baja escucho una voz pidiendo ayuda.\r\n\n1.
+    Asistir a quien pide ayuda.\r\n\r2. Ignorar el pedido de auxilio y salir del
+    edificio."
+  nextStates:
+  - {fileID: 11400000, guid: ab91f4f6544d7684280e533152cb2f4b, type: 2}
+  - {fileID: 11400000, guid: 4a31677510bea504a8ddfa1cc495de31, type: 2}

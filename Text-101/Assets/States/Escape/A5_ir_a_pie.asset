@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9de68fad024362846856a3171e87c933, type: 3}
+  m_Name: A5_ir_a_pie
+  m_EditorClassIdentifier: 
+  storyText: "Al ir a pie puedo esconderme mejor en las callejuelas de la ciudad.
+    Debido a la superpoblaci\xF3n no quedan muchos espacios abiertos.\r\nLuego de
+    recorrer media ciudad a pie miro el reloj y veo que el tiempo se acaba.La nave
+    est\xE1 por despegar en 15 minutos\r\n1. Continuar andando con cautela.\r\n2.
+    Correr sin importar qui\xE9n me vea"
+  nextStates:
+  - {fileID: 11400000, guid: c5ec0253f98288e49b13a382b6600745, type: 2}
+  - {fileID: 11400000, guid: bdfff975b2cf44c4d8934523a1ce8d4c, type: 2}
